@@ -16,6 +16,8 @@ const app = express()
 
 const Router = express.Router;
 
+app.use(cors());
+
 // Routes and middleware
 // app.use(/* ... */)
 // app.get(/* ... */)
