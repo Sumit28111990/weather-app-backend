@@ -5,6 +5,8 @@ const multer = require('multer');
 
 const fs = require('fs');
 
+const cors = require('cors');
+
 const upload = multer({
   dest: './images/'
 });
